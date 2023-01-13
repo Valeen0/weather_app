@@ -1,0 +1,43 @@
+hr{
+    border: 1px solid rgba(216, 216, 216, 0.308);
+    height: 1px;
+    width: 100%;
+}
+
+/**  Current Temperature Section **/
+main{
+    margin: 1rem;
+}
+.weather_today{
+    width: 100%;
+    gap: 1rem;
+    height: 200px;
+}
+
+/** Today Aditional Data Section **/
+/* Styles can be modified HERE */
+
+/** City Local Data Section **/
+
+/* Local Hour special styles */
+.city_time p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1.2rem;
+}
+
+/**! FORECASTS: **/
+
+/** Forecast next 12 hours Section **/
+
+.next_hours > div{
+    gap: 3.5rem;
+    margin: .2rem 0 ;
+}
+.weather_container{
+    min-height: 120px;
+}
+.weather_container *{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.App{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+.App.day{
+    background: var(--dayColor);
+}
+.App.night{
+    background: var(--nightColor);
+}
+.form{
+    padding: .5rem 0;
+}
+.fields-container{  
+    margin: 0 auto;
+    text-align: center;
+}
+.fields-container input{
+    text-align: left;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root{
+
+    --dayColor: linear-gradient(360deg, #4E9DE7 0%, #446fdb 100%);
+    --nightColor: linear-gradient(360deg, #1D3164 1.49%, #17274F 26.47%, #0E1933 59.86%, #081126 86.47%);
+    --height-component: 200;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    font-family: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #389DF2;
+}
+img{
+    max-width: 100%;
+    height: auto    ;
+}
+
+h1, h2, h3, h4, h5, p, span, strong{
+    color: #F7F7F7;
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 1rem;
+}
+h5{
+    font-size: .9rem;
+}
+p{
+    font-size: .8rem;
+}
+
+.img-icon-container{
+    width: 38px;
+    height: 38px;
+}
+.img-normal-container{
+    width: 90px;
+    height: 90px;
+}
+.img-large-container{
+    width: 130px;
+    height: 130px;
+}
+
+.flex-dr-sb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-dr-c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-dr-c-fs{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.flex-dr-fs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex-dc-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-dc-fs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.error-msg{
+    text-align: center;
+    color: #f05050;
+}
